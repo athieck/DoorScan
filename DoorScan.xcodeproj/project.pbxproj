@@ -14,6 +14,50 @@
 		BC42F8211BB4DB9200D750C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC42F8201BB4DB9200D750C2 /* Images.xcassets */; };
 		BC42F8241BB4DB9200D750C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC42F8221BB4DB9200D750C2 /* LaunchScreen.xib */; };
 		BC42F8301BB4DB9200D750C2 /* DoorScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F82F1BB4DB9200D750C2 /* DoorScanTests.m */; };
+		BC42F83A1BB4DBCB00D750C2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8391BB4DBCB00D750C2 /* Parse.framework */; };
+		BC42F83C1BB4DBD800D750C2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F83B1BB4DBD800D750C2 /* Bolts.framework */; };
+		BC42F83E1BB4DC1400D750C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F83D1BB4DC1400D750C2 /* AudioToolbox.framework */; };
+		BC42F8401BB4DC1900D750C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F83F1BB4DC1900D750C2 /* CFNetwork.framework */; };
+		BC42F8421BB4DC1F00D750C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8411BB4DC1F00D750C2 /* CoreGraphics.framework */; };
+		BC42F8441BB4DC2600D750C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8431BB4DC2600D750C2 /* CoreLocation.framework */; };
+		BC42F8461BB4DC2D00D750C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8451BB4DC2D00D750C2 /* QuartzCore.framework */; };
+		BC42F8481BB4DC3300D750C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8471BB4DC3300D750C2 /* Security.framework */; };
+		BC42F84A1BB4DC3800D750C2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8491BB4DC3800D750C2 /* StoreKit.framework */; };
+		BC42F84C1BB4DC4300D750C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F84B1BB4DC4300D750C2 /* SystemConfiguration.framework */; };
+		BC42F84E1BB4DC5000D750C2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F84D1BB4DC5000D750C2 /* libz.dylib */; };
+		BC42F8501BB4DC5900D750C2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F84F1BB4DC5900D750C2 /* libsqlite3.dylib */; };
+		BC42F8541BB61ADB00D750C2 /* DSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8531BB61ADB00D750C2 /* DSScanViewController.m */; };
+		BC42F8571BB61AEE00D750C2 /* DSMyDoorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8561BB61AEE00D750C2 /* DSMyDoorsViewController.m */; };
+		BC42F85A1BB61AFE00D750C2 /* DSSharedDoorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8591BB61AFE00D750C2 /* DSSharedDoorsViewController.m */; };
+		BC42F85D1BB61B1100D750C2 /* DSLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F85C1BB61B1100D750C2 /* DSLogsViewController.m */; };
+		BC42F8601BB62A4900D750C2 /* DSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F85F1BB62A4900D750C2 /* DSSettingsViewController.m */; };
+		BC42F8631BB62A6D00D750C2 /* DSDoorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8621BB62A6D00D750C2 /* DSDoorView.m */; };
+		BC42F8661BB62A7A00D750C2 /* DSAddUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8651BB62A7A00D750C2 /* DSAddUserView.m */; };
+		BC42F8691BB62A8600D750C2 /* DSDoorLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8681BB62A8600D750C2 /* DSDoorLogView.m */; };
+		BC42F86C1BB62AA800D750C2 /* DSData.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F86B1BB62AA800D750C2 /* DSData.m */; };
+		BC42F86F1BB62ABC00D750C2 /* DSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F86E1BB62ABC00D750C2 /* DSLoginViewController.m */; };
+		BC42F8721BB62AEE00D750C2 /* UIColor+UIColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8711BB62AEE00D750C2 /* UIColor+UIColorCategory.m */; };
+		BC42F8841BB62B6500D750C2 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC42F8741BB62B6500D750C2 /* DateTools.bundle */; };
+		BC42F8851BB62B6500D750C2 /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8771BB62B6500D750C2 /* DTConstants.m */; };
+		BC42F8861BB62B6500D750C2 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8791BB62B6500D750C2 /* DTError.m */; };
+		BC42F8871BB62B6500D750C2 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F87B1BB62B6500D750C2 /* DTTimePeriod.m */; };
+		BC42F8881BB62B6500D750C2 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F87D1BB62B6500D750C2 /* DTTimePeriodChain.m */; };
+		BC42F8891BB62B6500D750C2 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F87F1BB62B6500D750C2 /* DTTimePeriodCollection.m */; };
+		BC42F88A1BB62B6500D750C2 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8811BB62B6500D750C2 /* DTTimePeriodGroup.m */; };
+		BC42F88B1BB62B6500D750C2 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8831BB62B6500D750C2 /* NSDate+DateTools.m */; };
+		BC42F8911BB62BA900D750C2 /* HKCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F88E1BB62BA900D750C2 /* HKCircularProgressLayer.m */; };
+		BC42F8921BB62BA900D750C2 /* HKCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8901BB62BA900D750C2 /* HKCircularProgressView.m */; };
+		BC42F8941BB634EF00D750C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8931BB634EF00D750C2 /* Foundation.framework */; };
+		BC42F8961BB6351800D750C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8951BB6351800D750C2 /* AVFoundation.framework */; };
+		BC42F8981BB6352200D750C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42F8971BB6352200D750C2 /* UIKit.framework */; };
+		BC42F89B1BB642BE00D750C2 /* NSString+NSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F89A1BB642BE00D750C2 /* NSString+NSStringCategory.m */; };
+		BC42F89F1BB6642300D750C2 /* myDoorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F89E1BB6642300D750C2 /* myDoorsCell.m */; };
+		BC42F8A31BB6DFE600D750C2 /* sharedWithCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8A21BB6DFE600D750C2 /* sharedWithCell.m */; };
+		BC42F8BE1BB7006D00D750C2 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8BB1BB7006D00D750C2 /* MGSwipeButton.m */; };
+		BC42F8BF1BB7006D00D750C2 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8BD1BB7006D00D750C2 /* MGSwipeTableCell.m */; };
+		BC42F8C21BB716EF00D750C2 /* searchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8C11BB716EF00D750C2 /* searchCell.m */; };
+		BC42F8C51BB72E9800D750C2 /* sharedDoorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8C41BB72E9800D750C2 /* sharedDoorsCell.m */; };
+		BC42F8C81BB7582900D750C2 /* logCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42F8C71BB7582900D750C2 /* logCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +84,80 @@
 		BC42F8291BB4DB9200D750C2 /* DoorScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC42F82E1BB4DB9200D750C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC42F82F1BB4DB9200D750C2 /* DoorScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorScanTests.m; sourceTree = "<group>"; };
+		BC42F8391BB4DBCB00D750C2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Downloads/parse-library-1.8.5/Parse.framework"; sourceTree = "<group>"; };
+		BC42F83B1BB4DBD800D750C2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1.8.5/Bolts.framework"; sourceTree = "<group>"; };
+		BC42F83D1BB4DC1400D750C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC42F83F1BB4DC1900D750C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BC42F8411BB4DC1F00D750C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC42F8431BB4DC2600D750C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC42F8451BB4DC2D00D750C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC42F8471BB4DC3300D750C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BC42F8491BB4DC3800D750C2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BC42F84B1BB4DC4300D750C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC42F84D1BB4DC5000D750C2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BC42F84F1BB4DC5900D750C2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BC42F8521BB61ADB00D750C2 /* DSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScanViewController.h; sourceTree = "<group>"; };
+		BC42F8531BB61ADB00D750C2 /* DSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScanViewController.m; sourceTree = "<group>"; };
+		BC42F8551BB61AEE00D750C2 /* DSMyDoorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMyDoorsViewController.h; sourceTree = "<group>"; };
+		BC42F8561BB61AEE00D750C2 /* DSMyDoorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMyDoorsViewController.m; sourceTree = "<group>"; };
+		BC42F8581BB61AFE00D750C2 /* DSSharedDoorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSharedDoorsViewController.h; sourceTree = "<group>"; };
+		BC42F8591BB61AFE00D750C2 /* DSSharedDoorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSharedDoorsViewController.m; sourceTree = "<group>"; };
+		BC42F85B1BB61B1100D750C2 /* DSLogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLogsViewController.h; sourceTree = "<group>"; };
+		BC42F85C1BB61B1100D750C2 /* DSLogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLogsViewController.m; sourceTree = "<group>"; };
+		BC42F85E1BB62A4900D750C2 /* DSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSettingsViewController.h; sourceTree = "<group>"; };
+		BC42F85F1BB62A4900D750C2 /* DSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSettingsViewController.m; sourceTree = "<group>"; };
+		BC42F8611BB62A6D00D750C2 /* DSDoorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDoorView.h; sourceTree = "<group>"; };
+		BC42F8621BB62A6D00D750C2 /* DSDoorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDoorView.m; sourceTree = "<group>"; };
+		BC42F8641BB62A7A00D750C2 /* DSAddUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAddUserView.h; sourceTree = "<group>"; };
+		BC42F8651BB62A7A00D750C2 /* DSAddUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAddUserView.m; sourceTree = "<group>"; };
+		BC42F8671BB62A8600D750C2 /* DSDoorLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDoorLogView.h; sourceTree = "<group>"; };
+		BC42F8681BB62A8600D750C2 /* DSDoorLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDoorLogView.m; sourceTree = "<group>"; };
+		BC42F86A1BB62AA800D750C2 /* DSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSData.h; sourceTree = "<group>"; };
+		BC42F86B1BB62AA800D750C2 /* DSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSData.m; sourceTree = "<group>"; };
+		BC42F86D1BB62ABC00D750C2 /* DSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLoginViewController.h; sourceTree = "<group>"; };
+		BC42F86E1BB62ABC00D750C2 /* DSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLoginViewController.m; sourceTree = "<group>"; };
+		BC42F8701BB62AEE00D750C2 /* UIColor+UIColorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColorCategory.h"; sourceTree = "<group>"; };
+		BC42F8711BB62AEE00D750C2 /* UIColor+UIColorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColorCategory.m"; sourceTree = "<group>"; };
+		BC42F8741BB62B6500D750C2 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = "../../../../Downloads/DateTools-master 2/DateTools/DateTools.bundle"; sourceTree = "<group>"; };
+		BC42F8751BB62B6500D750C2 /* DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateTools.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DateTools.h"; sourceTree = "<group>"; };
+		BC42F8761BB62B6500D750C2 /* DTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTConstants.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DTConstants.h"; sourceTree = "<group>"; };
+		BC42F8771BB62B6500D750C2 /* DTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTConstants.m; path = "../../../../Downloads/DateTools-master 2/DateTools/DTConstants.m"; sourceTree = "<group>"; };
+		BC42F8781BB62B6500D750C2 /* DTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTError.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DTError.h"; sourceTree = "<group>"; };
+		BC42F8791BB62B6500D750C2 /* DTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTError.m; path = "../../../../Downloads/DateTools-master 2/DateTools/DTError.m"; sourceTree = "<group>"; };
+		BC42F87A1BB62B6500D750C2 /* DTTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTimePeriod.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriod.h"; sourceTree = "<group>"; };
+		BC42F87B1BB62B6500D750C2 /* DTTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriod.m; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriod.m"; sourceTree = "<group>"; };
+		BC42F87C1BB62B6500D750C2 /* DTTimePeriodChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodChain.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriodChain.h"; sourceTree = "<group>"; };
+		BC42F87D1BB62B6500D750C2 /* DTTimePeriodChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodChain.m; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriodChain.m"; sourceTree = "<group>"; };
+		BC42F87E1BB62B6500D750C2 /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodCollection.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriodCollection.h"; sourceTree = "<group>"; };
+		BC42F87F1BB62B6500D750C2 /* DTTimePeriodCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodCollection.m; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriodCollection.m"; sourceTree = "<group>"; };
+		BC42F8801BB62B6500D750C2 /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodGroup.h; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriodGroup.h"; sourceTree = "<group>"; };
+		BC42F8811BB62B6500D750C2 /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodGroup.m; path = "../../../../Downloads/DateTools-master 2/DateTools/DTTimePeriodGroup.m"; sourceTree = "<group>"; };
+		BC42F8821BB62B6500D750C2 /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateTools.h"; path = "../../../../Downloads/DateTools-master 2/DateTools/NSDate+DateTools.h"; sourceTree = "<group>"; };
+		BC42F8831BB62B6500D750C2 /* NSDate+DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DateTools.m"; path = "../../../../Downloads/DateTools-master 2/DateTools/NSDate+DateTools.m"; sourceTree = "<group>"; };
+		BC42F88D1BB62BA900D750C2 /* HKCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HKCircularProgressLayer.h; path = "../../../../Downloads/HKCircularProgressView-master/HKCircularProgressView/HKCircularProgressView/HKCircularProgressLayer.h"; sourceTree = "<group>"; };
+		BC42F88E1BB62BA900D750C2 /* HKCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HKCircularProgressLayer.m; path = "../../../../Downloads/HKCircularProgressView-master/HKCircularProgressView/HKCircularProgressView/HKCircularProgressLayer.m"; sourceTree = "<group>"; };
+		BC42F88F1BB62BA900D750C2 /* HKCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HKCircularProgressView.h; path = "../../../../Downloads/HKCircularProgressView-master/HKCircularProgressView/HKCircularProgressView/HKCircularProgressView.h"; sourceTree = "<group>"; };
+		BC42F8901BB62BA900D750C2 /* HKCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HKCircularProgressView.m; path = "../../../../Downloads/HKCircularProgressView-master/HKCircularProgressView/HKCircularProgressView/HKCircularProgressView.m"; sourceTree = "<group>"; };
+		BC42F8931BB634EF00D750C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC42F8951BB6351800D750C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC42F8971BB6352200D750C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC42F8991BB642BE00D750C2 /* NSString+NSStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringCategory.h"; sourceTree = "<group>"; };
+		BC42F89A1BB642BE00D750C2 /* NSString+NSStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringCategory.m"; sourceTree = "<group>"; };
+		BC42F89D1BB6642300D750C2 /* myDoorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myDoorsCell.h; sourceTree = "<group>"; };
+		BC42F89E1BB6642300D750C2 /* myDoorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myDoorsCell.m; sourceTree = "<group>"; };
+		BC42F8A01BB6DB9800D750C2 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BC42F8A11BB6DFE600D750C2 /* sharedWithCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedWithCell.h; sourceTree = "<group>"; };
+		BC42F8A21BB6DFE600D750C2 /* sharedWithCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedWithCell.m; sourceTree = "<group>"; };
+		BC42F8BA1BB7006D00D750C2 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = "../../../../Downloads/MGSwipeTableCell-master/MGSwipeTableCell/MGSwipeButton.h"; sourceTree = "<group>"; };
+		BC42F8BB1BB7006D00D750C2 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = "../../../../Downloads/MGSwipeTableCell-master/MGSwipeTableCell/MGSwipeButton.m"; sourceTree = "<group>"; };
+		BC42F8BC1BB7006D00D750C2 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = "../../../../Downloads/MGSwipeTableCell-master/MGSwipeTableCell/MGSwipeTableCell.h"; sourceTree = "<group>"; };
+		BC42F8BD1BB7006D00D750C2 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = "../../../../Downloads/MGSwipeTableCell-master/MGSwipeTableCell/MGSwipeTableCell.m"; sourceTree = "<group>"; };
+		BC42F8C01BB716EF00D750C2 /* searchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchCell.h; sourceTree = "<group>"; };
+		BC42F8C11BB716EF00D750C2 /* searchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchCell.m; sourceTree = "<group>"; };
+		BC42F8C31BB72E9800D750C2 /* sharedDoorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedDoorsCell.h; sourceTree = "<group>"; };
+		BC42F8C41BB72E9800D750C2 /* sharedDoorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedDoorsCell.m; sourceTree = "<group>"; };
+		BC42F8C61BB7582900D750C2 /* logCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logCell.h; sourceTree = "<group>"; };
+		BC42F8C71BB7582900D750C2 /* logCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +165,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC42F8981BB6352200D750C2 /* UIKit.framework in Frameworks */,
+				BC42F8961BB6351800D750C2 /* AVFoundation.framework in Frameworks */,
+				BC42F8941BB634EF00D750C2 /* Foundation.framework in Frameworks */,
+				BC42F8501BB4DC5900D750C2 /* libsqlite3.dylib in Frameworks */,
+				BC42F84E1BB4DC5000D750C2 /* libz.dylib in Frameworks */,
+				BC42F84C1BB4DC4300D750C2 /* SystemConfiguration.framework in Frameworks */,
+				BC42F84A1BB4DC3800D750C2 /* StoreKit.framework in Frameworks */,
+				BC42F8481BB4DC3300D750C2 /* Security.framework in Frameworks */,
+				BC42F8461BB4DC2D00D750C2 /* QuartzCore.framework in Frameworks */,
+				BC42F8441BB4DC2600D750C2 /* CoreLocation.framework in Frameworks */,
+				BC42F8421BB4DC1F00D750C2 /* CoreGraphics.framework in Frameworks */,
+				BC42F8401BB4DC1900D750C2 /* CFNetwork.framework in Frameworks */,
+				BC42F83E1BB4DC1400D750C2 /* AudioToolbox.framework in Frameworks */,
+				BC42F83A1BB4DBCB00D750C2 /* Parse.framework in Frameworks */,
+				BC42F83C1BB4DBD800D750C2 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +196,13 @@
 		BC42F8071BB4DB9200D750C2 = {
 			isa = PBXGroup;
 			children = (
+				BC42F8971BB6352200D750C2 /* UIKit.framework */,
+				BC42F8951BB6351800D750C2 /* AVFoundation.framework */,
+				BC42F8931BB634EF00D750C2 /* Foundation.framework */,
+				BC42F8731BB62B5000D750C2 /* dateTools */,
+				BC42F8B91BB7005100D750C2 /* mgSwipe table cell */,
+				BC42F88C1BB62B8100D750C2 /* progressView */,
+				BC42F8511BB4DD0E00D750C2 /* frameworks */,
 				BC42F8121BB4DB9200D750C2 /* DoorScan */,
 				BC42F82C1BB4DB9200D750C2 /* DoorScanTests */,
 				BC42F8111BB4DB9200D750C2 /* Products */,
@@ -81,10 +221,36 @@
 		BC42F8121BB4DB9200D750C2 /* DoorScan */ = {
 			isa = PBXGroup;
 			children = (
+				BC42F89C1BB663F900D750C2 /* table cells */,
 				BC42F8171BB4DB9200D750C2 /* AppDelegate.h */,
 				BC42F8181BB4DB9200D750C2 /* AppDelegate.m */,
 				BC42F81A1BB4DB9200D750C2 /* ViewController.h */,
 				BC42F81B1BB4DB9200D750C2 /* ViewController.m */,
+				BC42F86D1BB62ABC00D750C2 /* DSLoginViewController.h */,
+				BC42F86E1BB62ABC00D750C2 /* DSLoginViewController.m */,
+				BC42F8521BB61ADB00D750C2 /* DSScanViewController.h */,
+				BC42F8531BB61ADB00D750C2 /* DSScanViewController.m */,
+				BC42F8551BB61AEE00D750C2 /* DSMyDoorsViewController.h */,
+				BC42F8561BB61AEE00D750C2 /* DSMyDoorsViewController.m */,
+				BC42F8581BB61AFE00D750C2 /* DSSharedDoorsViewController.h */,
+				BC42F8591BB61AFE00D750C2 /* DSSharedDoorsViewController.m */,
+				BC42F85B1BB61B1100D750C2 /* DSLogsViewController.h */,
+				BC42F85C1BB61B1100D750C2 /* DSLogsViewController.m */,
+				BC42F85E1BB62A4900D750C2 /* DSSettingsViewController.h */,
+				BC42F85F1BB62A4900D750C2 /* DSSettingsViewController.m */,
+				BC42F8611BB62A6D00D750C2 /* DSDoorView.h */,
+				BC42F8621BB62A6D00D750C2 /* DSDoorView.m */,
+				BC42F8641BB62A7A00D750C2 /* DSAddUserView.h */,
+				BC42F8651BB62A7A00D750C2 /* DSAddUserView.m */,
+				BC42F8671BB62A8600D750C2 /* DSDoorLogView.h */,
+				BC42F8681BB62A8600D750C2 /* DSDoorLogView.m */,
+				BC42F86A1BB62AA800D750C2 /* DSData.h */,
+				BC42F86B1BB62AA800D750C2 /* DSData.m */,
+				BC42F8A01BB6DB9800D750C2 /* Constants.h */,
+				BC42F8701BB62AEE00D750C2 /* UIColor+UIColorCategory.h */,
+				BC42F8711BB62AEE00D750C2 /* UIColor+UIColorCategory.m */,
+				BC42F8991BB642BE00D750C2 /* NSString+NSStringCategory.h */,
+				BC42F89A1BB642BE00D750C2 /* NSString+NSStringCategory.m */,
 				BC42F81D1BB4DB9200D750C2 /* Main.storyboard */,
 				BC42F8201BB4DB9200D750C2 /* Images.xcassets */,
 				BC42F8221BB4DB9200D750C2 /* LaunchScreen.xib */,
@@ -117,6 +283,87 @@
 				BC42F82E1BB4DB9200D750C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC42F8511BB4DD0E00D750C2 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC42F84F1BB4DC5900D750C2 /* libsqlite3.dylib */,
+				BC42F84D1BB4DC5000D750C2 /* libz.dylib */,
+				BC42F84B1BB4DC4300D750C2 /* SystemConfiguration.framework */,
+				BC42F8491BB4DC3800D750C2 /* StoreKit.framework */,
+				BC42F8471BB4DC3300D750C2 /* Security.framework */,
+				BC42F8451BB4DC2D00D750C2 /* QuartzCore.framework */,
+				BC42F8431BB4DC2600D750C2 /* CoreLocation.framework */,
+				BC42F8411BB4DC1F00D750C2 /* CoreGraphics.framework */,
+				BC42F83F1BB4DC1900D750C2 /* CFNetwork.framework */,
+				BC42F83D1BB4DC1400D750C2 /* AudioToolbox.framework */,
+				BC42F83B1BB4DBD800D750C2 /* Bolts.framework */,
+				BC42F8391BB4DBCB00D750C2 /* Parse.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		BC42F8731BB62B5000D750C2 /* dateTools */ = {
+			isa = PBXGroup;
+			children = (
+				BC42F8741BB62B6500D750C2 /* DateTools.bundle */,
+				BC42F8751BB62B6500D750C2 /* DateTools.h */,
+				BC42F8761BB62B6500D750C2 /* DTConstants.h */,
+				BC42F8771BB62B6500D750C2 /* DTConstants.m */,
+				BC42F8781BB62B6500D750C2 /* DTError.h */,
+				BC42F8791BB62B6500D750C2 /* DTError.m */,
+				BC42F87A1BB62B6500D750C2 /* DTTimePeriod.h */,
+				BC42F87B1BB62B6500D750C2 /* DTTimePeriod.m */,
+				BC42F87C1BB62B6500D750C2 /* DTTimePeriodChain.h */,
+				BC42F87D1BB62B6500D750C2 /* DTTimePeriodChain.m */,
+				BC42F87E1BB62B6500D750C2 /* DTTimePeriodCollection.h */,
+				BC42F87F1BB62B6500D750C2 /* DTTimePeriodCollection.m */,
+				BC42F8801BB62B6500D750C2 /* DTTimePeriodGroup.h */,
+				BC42F8811BB62B6500D750C2 /* DTTimePeriodGroup.m */,
+				BC42F8821BB62B6500D750C2 /* NSDate+DateTools.h */,
+				BC42F8831BB62B6500D750C2 /* NSDate+DateTools.m */,
+			);
+			name = dateTools;
+			sourceTree = "<group>";
+		};
+		BC42F88C1BB62B8100D750C2 /* progressView */ = {
+			isa = PBXGroup;
+			children = (
+				BC42F88D1BB62BA900D750C2 /* HKCircularProgressLayer.h */,
+				BC42F88E1BB62BA900D750C2 /* HKCircularProgressLayer.m */,
+				BC42F88F1BB62BA900D750C2 /* HKCircularProgressView.h */,
+				BC42F8901BB62BA900D750C2 /* HKCircularProgressView.m */,
+			);
+			name = progressView;
+			sourceTree = "<group>";
+		};
+		BC42F89C1BB663F900D750C2 /* table cells */ = {
+			isa = PBXGroup;
+			children = (
+				BC42F89D1BB6642300D750C2 /* myDoorsCell.h */,
+				BC42F89E1BB6642300D750C2 /* myDoorsCell.m */,
+				BC42F8A11BB6DFE600D750C2 /* sharedWithCell.h */,
+				BC42F8A21BB6DFE600D750C2 /* sharedWithCell.m */,
+				BC42F8C01BB716EF00D750C2 /* searchCell.h */,
+				BC42F8C11BB716EF00D750C2 /* searchCell.m */,
+				BC42F8C31BB72E9800D750C2 /* sharedDoorsCell.h */,
+				BC42F8C41BB72E9800D750C2 /* sharedDoorsCell.m */,
+				BC42F8C61BB7582900D750C2 /* logCell.h */,
+				BC42F8C71BB7582900D750C2 /* logCell.m */,
+			);
+			name = "table cells";
+			sourceTree = "<group>";
+		};
+		BC42F8B91BB7005100D750C2 /* mgSwipe table cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC42F8BA1BB7006D00D750C2 /* MGSwipeButton.h */,
+				BC42F8BB1BB7006D00D750C2 /* MGSwipeButton.m */,
+				BC42F8BC1BB7006D00D750C2 /* MGSwipeTableCell.h */,
+				BC42F8BD1BB7006D00D750C2 /* MGSwipeTableCell.m */,
+			);
+			name = "mgSwipe table cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +410,12 @@
 		BC42F8081BB4DB9200D750C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Andrew Thieck";
 				TargetAttributes = {
 					BC42F80F1BB4DB9200D750C2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = R39H7Z97U7;
 					};
 					BC42F8281BB4DB9200D750C2 = {
 						CreatedOnToolsVersion = 6.4;
@@ -202,6 +450,7 @@
 				BC42F81F1BB4DB9200D750C2 /* Main.storyboard in Resources */,
 				BC42F8241BB4DB9200D750C2 /* LaunchScreen.xib in Resources */,
 				BC42F8211BB4DB9200D750C2 /* Images.xcassets in Resources */,
+				BC42F8841BB62B6500D750C2 /* DateTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +468,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC42F86C1BB62AA800D750C2 /* DSData.m in Sources */,
+				BC42F88A1BB62B6500D750C2 /* DTTimePeriodGroup.m in Sources */,
+				BC42F8911BB62BA900D750C2 /* HKCircularProgressLayer.m in Sources */,
+				BC42F8571BB61AEE00D750C2 /* DSMyDoorsViewController.m in Sources */,
+				BC42F89F1BB6642300D750C2 /* myDoorsCell.m in Sources */,
+				BC42F8541BB61ADB00D750C2 /* DSScanViewController.m in Sources */,
+				BC42F8891BB62B6500D750C2 /* DTTimePeriodCollection.m in Sources */,
 				BC42F81C1BB4DB9200D750C2 /* ViewController.m in Sources */,
+				BC42F86F1BB62ABC00D750C2 /* DSLoginViewController.m in Sources */,
+				BC42F8851BB62B6500D750C2 /* DTConstants.m in Sources */,
+				BC42F8861BB62B6500D750C2 /* DTError.m in Sources */,
+				BC42F8721BB62AEE00D750C2 /* UIColor+UIColorCategory.m in Sources */,
+				BC42F8871BB62B6500D750C2 /* DTTimePeriod.m in Sources */,
+				BC42F8C81BB7582900D750C2 /* logCell.m in Sources */,
 				BC42F8191BB4DB9200D750C2 /* AppDelegate.m in Sources */,
+				BC42F8A31BB6DFE600D750C2 /* sharedWithCell.m in Sources */,
+				BC42F8601BB62A4900D750C2 /* DSSettingsViewController.m in Sources */,
+				BC42F8C51BB72E9800D750C2 /* sharedDoorsCell.m in Sources */,
+				BC42F8691BB62A8600D750C2 /* DSDoorLogView.m in Sources */,
+				BC42F8BF1BB7006D00D750C2 /* MGSwipeTableCell.m in Sources */,
+				BC42F89B1BB642BE00D750C2 /* NSString+NSStringCategory.m in Sources */,
+				BC42F85D1BB61B1100D750C2 /* DSLogsViewController.m in Sources */,
+				BC42F8921BB62BA900D750C2 /* HKCircularProgressView.m in Sources */,
+				BC42F8881BB62B6500D750C2 /* DTTimePeriodChain.m in Sources */,
+				BC42F8BE1BB7006D00D750C2 /* MGSwipeButton.m in Sources */,
+				BC42F8C21BB716EF00D750C2 /* searchCell.m in Sources */,
+				BC42F85A1BB61AFE00D750C2 /* DSSharedDoorsViewController.m in Sources */,
 				BC42F8161BB4DB9200D750C2 /* main.m in Sources */,
+				BC42F8661BB62A7A00D750C2 /* DSAddUserView.m in Sources */,
+				BC42F88B1BB62B6500D750C2 /* NSDate+DateTools.m in Sources */,
+				BC42F8631BB62A6D00D750C2 /* DSDoorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +561,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -299,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,9 +625,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/athieck/Downloads/parse-library-1.8.5",
+				);
 				INFOPLIST_FILE = DoorScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Thieck.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +643,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/athieck/Downloads/parse-library-1.8.5",
+				);
 				INFOPLIST_FILE = DoorScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Thieck.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -377,6 +671,7 @@
 				);
 				INFOPLIST_FILE = DoorScanTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Thieck.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorScan.app/DoorScan";
 			};
@@ -392,6 +687,7 @@
 				);
 				INFOPLIST_FILE = DoorScanTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Thieck.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorScan.app/DoorScan";
 			};
@@ -416,6 +712,7 @@
 				BC42F8351BB4DB9200D750C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC42F8361BB4DB9200D750C2 /* Build configuration list for PBXNativeTarget "DoorScanTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +721,7 @@
 				BC42F8381BB4DB9200D750C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

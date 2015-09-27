@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +18,79 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"Muut7AbFD3ldWC1qSS8QBW0x2OyxcsvwMvCTqzwh"
+                  clientKey:@"fIcUG6FKtSyzc2A58hVYn76WZtQEBhjEBdNMbWOA"];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginOrPass) name:loginOrPassNotification object:nil];
+    
+    [self loginOrPass];
+    
     return YES;
+}
+
+- (void) loginOrPass {
+    //[[NSOperationQueue mainQueue] addOperationWithBlock:^{
+
+    if (tabBarController) {
+        tabBarController = nil;
+    }
+    
+    tabBarController = [[UITabBarController alloc] init];
+    
+    if ([PFUser currentUser]) {
+        NSLog(@"we have a user");
+        
+        myScanVC =  [[DSScanViewController alloc] init];
+        UINavigationController *scanNavController = [[UINavigationController alloc] initWithRootViewController: myScanVC];
+        
+        myMyDoorsVC =  [[DSMyDoorsViewController alloc] init];
+        UINavigationController *myDoorsNavController = [[UINavigationController alloc] initWithRootViewController: myMyDoorsVC];
+        
+        mySharedDoorsVC =  [[DSSharedDoorsViewController alloc] init];
+        UINavigationController *sharedDoorsNavController = [[UINavigationController alloc] initWithRootViewController: mySharedDoorsVC];
+        
+        myLogsVC =  [[DSLogsViewController alloc] init];
+        UINavigationController *logsNavController = [[UINavigationController alloc] initWithRootViewController: myLogsVC];
+        
+        mySettingsVC =  [[DSSettingsViewController alloc] init];
+        UINavigationController *settingsNavController = [[UINavigationController alloc] initWithRootViewController: mySettingsVC];
+        
+        tabBarController.viewControllers = [NSArray arrayWithObjects: scanNavController, myDoorsNavController, sharedDoorsNavController, logsNavController, settingsNavController, nil];
+        
+        tabBarController.selectedIndex = 0;
+        tabBarController.delegate = self;
+        
+        UITabBarItem *scanItem = [[UITabBarItem alloc] initWithTitle:@"scan" image:[UIImage imageNamed:@"scan"] tag:0];
+        [myScanVC  setTabBarItem:scanItem];
+        
+        UITabBarItem *myDoorsItem = [[UITabBarItem alloc] initWithTitle:@"my doors" image:[UIImage imageNamed:@"myDoors"] tag:1];
+        [myMyDoorsVC  setTabBarItem:myDoorsItem];
+        
+        UITabBarItem *sharedDoorsItem = [[UITabBarItem alloc] initWithTitle:@"shared doors" image:[UIImage imageNamed:@"sharedDoors"] tag:2];
+        [mySharedDoorsVC  setTabBarItem:sharedDoorsItem];
+        
+        UITabBarItem *logsItem = [[UITabBarItem alloc] initWithTitle:@"logs" image:[UIImage imageNamed:@"logs"] tag:3];
+        [myLogsVC  setTabBarItem:logsItem];
+        
+        UITabBarItem *settingsItem = [[UITabBarItem alloc] initWithTitle:@"settings" image:[UIImage imageNamed:@"settings"] tag:4];
+        [mySettingsVC  setTabBarItem:settingsItem];
+        
+        tabBarController.tabBar.barStyle = UIBarStyleDefault;
+        [[UITabBar appearance] setTintColor:[UIColor myGreenTheme3]];
+        [[UITabBar appearance] setBarTintColor:[UIColor myLightGrayColor]];
+        
+        self.window.rootViewController = tabBarController;
+        
+    } else {
+        NSLog(@"we nave no user captain!");
+        self.window.rootViewController = [[DSLoginViewController alloc] init];
+    }
+
+    //}];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
